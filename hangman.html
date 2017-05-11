@@ -4,9 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-    
     <!-- <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> -->
-    
     <title>Hangman: E.T. Edition</title>
 </head>
 
@@ -14,42 +12,40 @@
     <div class="container main">
         <div class="row fade-in">
             <section class="col-md-12">
-                <div class="page-header"><h2>Hangman: <small>E.T. Edition</small></h2></div>
-
+                <div class="page-header">
+                    <h2>Hangman: <small>E.T. Edition</small></h2>
+                </div>
                 <blockquote>
                     <p>He's a man from outer space and we're taking him to his spaceship.</p>
                     <small class="text-muted"><cite title="Source Title">Elliot</cite></small>
                 </blockquote>
-                
-                <div><br/><br/><div>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
             </section>
         </div>
-
-  <div class="row fade-in bottom-margin">
+        <div class="row fade-in bottom-margin">
             <section class="col-md-12 text-right">
                 <p>Press any letter key to play!</p>
                 <p>Wins: <span id="wins">0</span></p>
             </section>
         </div>
-
         <div class="row fade-in bottom-margin">
             <section class="col-md-5">
                 <div class="bottom-margin"></div>
             </section>
-
             <section class="col-md-7">
                 <p class="text-right">Guesses remaining: <span id="remaining">10</span></p>
-
                 <div class="right-margin"></div>
-
                 <div id="gameArea" class="text-right"></div>
-
                 <div class="bottom-margin"></div>
-                
                 <div id="incorrectGuesses"></div>
             </section>
         </div>
+    </div>
     <audio id="music" src="assets/music/theme.mp3" autoplay loop></audio>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
 </html>
